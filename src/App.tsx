@@ -1,6 +1,12 @@
+import { GithubSummary } from "./components/GithubSummary";
+import { Header } from "./components/Header";
+
 export function App() {
 
   return (
-    <div>Hello World</div>
+    <>
+      <Header />
+      <GithubSummary />
+    </>
   )
 }
