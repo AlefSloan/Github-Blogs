@@ -1,3 +1,4 @@
+import { BlogPosts } from "../../components/BlogPosts";
 import { GithubSummary } from "../../components/GithubSummary";
 import { Header } from "../../components/Header";
 import { SearchBar } from "../../components/SearchBar";
@@ -8,6 +9,7 @@ export function Home() {
       <Header />
       <GithubSummary />
       <SearchBar />
+      <BlogPosts />
     </>
   )
 }
