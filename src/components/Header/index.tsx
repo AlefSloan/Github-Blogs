@@ -4,6 +4,6 @@ import { HeaderContent } from "./style";
 
 export function Header() {
   return (
-    <HeaderContent/>
+    <HeaderContent />
   )
 }

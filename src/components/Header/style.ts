@@ -6,5 +6,5 @@ export const HeaderContent = styled.header`
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('./src/assets/cover.png');
+  background-image: url('/src/assets/cover.png');
 `
